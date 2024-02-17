@@ -22,9 +22,9 @@ def test_navigation():
 # Test form submission functionality
 def test_form_submission():
     driver.get("https://Sabelodone.github.io/My-Personal-Portfolio-Project")  # Replace with your contact page URL
-    name_input = driver.find_element(By.NAME, "name")
-    email_input = driver.find_element(By.NAME, "email")
-    message_input = driver.find_element(By.NAME, "message")
+    name_input = driver.find_element(By.NAME, "name")  # Update with correct name attribute value
+    email_input = driver.find_element(By.NAME, "email")  # Update with correct name attribute value
+    message_input = driver.find_element(By.NAME, "message")  # Update with correct name attribute value
 
     name_input.send_keys("Sabelo Sibaya")
     email_input.send_keys("sabelozondo825@gmail.com")
@@ -63,3 +63,4 @@ if __name__ == "__main__":
 
 # Close the WebDriver
 driver.quit()
+
